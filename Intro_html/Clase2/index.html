@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Mediante TAG o etiquetas style por jerarquía menos usados-->
+<style>
+    h1{
+        background: yellow;
+    }
+    h1{
+        color: red;
+    }
+</style>
+
+<!-- Mediante archivo externo, mas usados, predomina por sobre todas las formas -->
+<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Mediante atributos este es el mas fuerte en temas jerárquicos  conocido como inline mala practica-->
+    <h1 style="color: red;">Hola Mundo</h1>
+
+
+    <!-- Mediante clases en style se referencias con un . -->
+    <p class="pruebaBorder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+
+    <p class="pruebaBorder"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+
+    <!-- Mediante id este tiene más jerarquía que cualquier otro, idealmente para cosas muy específicas en style se referencia con un #-->
+    <p id="iamalone"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aperiam quas dolores, facilis quisquam eum quia dolore nihil accusantium ullam quis. Alias cumque reprehenderit quasi debitis officia iure sed velit?</p>
+
+    <!-- El div sirve para dividir en  secciones -->
+<div class="partes1"> 
+    <h3>Sandy Alvarez</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ducimus.
+        </p>
+</div>
+<div class="partes2">
+    <h4>Paula Chavez</h4>
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+</div>
+<div class="partes3">
+    <h5>Isabella Alvarez</h5>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti necessitatibus error sint autem voluptatibus aliquam totam aut quibusdam nihil. Qui consequatur debitis minima et vero repellendus distinctio nobis repellat iure consectetur ratione beatae, cum culpa at tempore soluta! Molestias similique sequi voluptas dolor commodi odio nihil ad illo quos quas?
+        </p>
+</div>
+<main>
+    <h1>Titulo Principal
+    </h1>    
+</main>
+<footer>
+    <p>Este es el pie de página</p>
+</footer>
+
+</body>
+</html>

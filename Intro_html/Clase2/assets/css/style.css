@@ -1,0 +1,52 @@
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    background-color: aquamarine;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pruebaBorder {
+    border: 1px solid black;
+    /* el padding es de arriba, derecha, abajo, izquierda */ 
+    padding: 50px 60px 30px 10px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#iamalone {
+    background-color: #98E2C8;
+    color: white;
+}
+.partes1 {
+    background-color: yellow;
+    color: black;
+}
+.partes2 {
+    background-color: green;
+    color: white;
+}
+.partes3 {
+    background-color: red;
+    color: white;
+}
+.partes1 h3 {
+    font-size: 50px;
+    margin: 10px;
+}
+.partes2 h4 {
+    font-size: 40px;
+    margin: 10px;
+}
+.partes3 h5 {
+    font-size: 30px;
+    margin: 10px;
+}
+/* mientras mas especifica sea la regla más jerarquía tendrá*/
+
+h3 {
+    font-size: 60px;
+    margin: 10px;
+}
