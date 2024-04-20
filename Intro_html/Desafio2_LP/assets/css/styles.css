@@ -3,7 +3,7 @@ body {
   width: 900px;
   margin: 0 auto;
 }
-.banner {
+.principal {
   background-image: url(../img/imgix-klWUhr-wPJ8-unsplash.jpg);
   position: relative;
   top: 15px;
@@ -13,65 +13,55 @@ body {
   border-radius: 5px;
   opacity: 60%;
 }
-.slogan h1 {
+.principal h1 {
   position: absolute;
   top: 3%;
   padding: 10px;
-  color: rgb(178, 137, 105);
+  color: rgb(167, 184, 107);
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-shadow: 1px 1px 3px black;
 }
-.slogan h3 {
+.principal h3 {
   position: absolute;
-  top: 13%;
+  top: 30%;
   padding: 10px;
   color: rgb(221, 196, 196);
   font-size: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-shadow: 5px 5px 5px black;
 }
-.titulo {
+.productos {
   font-size: 20px;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",sans-serif;
   color: rgb(95, 36, 36);
   margin-top: 40px;
   margin-left: 80px;
 }
-.containerM {
-  display: flex;
-  flex-direction: column;
-}
-.imagen {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50px;
-  margin-left: 80px;
-}
-.imagen img {
-  flex: 0 0 auto;
-  margin-right: 10px;
+.containerM img {
   width: 40%;
   border-radius: 5px;
   box-shadow: 2px 2px 2px black;
-}
-.text {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 40px;
 }
 .text h2 {
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   color: rgb(95, 36, 36);
+  position: relative;
+  top: -150px;
+  left: 400px;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .text p {
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   color: rgb(95, 36, 36);
+  position: relative;
+  top: -150px;
+  left: 400px;
   font-size: 15px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 .footer1 {
   opacity: 80%;
