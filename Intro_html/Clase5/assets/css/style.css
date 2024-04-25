@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position-y: -90px;
+    height: 240px;
+    color: white;
+    /*padding: 0 50px;*/ /*esto es lo mismo que padding-left: 50px; padding-right: 50px; para el texto*/
+    padding: 0 50px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /*separacion entre elementos*/
+    gap: 40px;
+}
+
+section header {
+    color: #DE7F54;
+}
+
+ol,
+ul {
+    /*extrae los puntos de la lista*/
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: medium;
+}
+nav ul {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    background-color: #DE7F54;
+    height: 25px;
+    align-items: center;
+}
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+/*Pseudoselectores*/
+nav li a:hover {
+    color: #385c29;
+}
+nav li a:active {
+    color: #a0d320;
+}
+.card {
+    border: 1px solid #c8c8c8;
+    box-shadow: 0px 4px 4px black;
+}
+
+.card div {
+    padding: 16px;
+}
+
+.card p,a {
+    font-size: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+table, tr, td {
+    width: 40%;
+    border: 2px solid #c8c8c8;
+    border-collapse: collapse;
+    
+}
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.galery img {
+    max-width: 290px;
+    object-fit: cover;
+}
+section, table, footer {
+    margin-top: 32px;
+}
+footer {
+    height: 64px;
+    background-color: #DE7F54;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    align-items: center;
+}
+footer img {
+    height: 100%;
+    object-fit: contain;
+}
+/*centrar el contenido del hero*/
+/*.hero_content {
+    max-width: 500px;
+    margin: 0 auto;
+}*/

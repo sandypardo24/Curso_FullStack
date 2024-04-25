@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.flex-container img {
+    width: 25%;
+    height: auto;
+    margin-top: 20px;
+}
+menu li {
+    display: inline-block;
+}
+menu {
+background-color: rgb(228, 52, 52); 
+line-height: 50px;
+font-size: 20px;
+text-align: right;
+}
+menu a {
+    color: white;
+    text-decoration: none;
+}
+menu li {
+    display: inline-block; 
+    margin-right: 50px;
+}
+body, menu { 
+    padding: 0px; 
+    margin: 0px;
+}
+menu ul { 
+    margin: 0px;
+}
+menu a:hover { 
+    color: black;
+    font-size: 50px;
+}
+menu a:active { 
+    color: rgb(16, 200, 31);
+    font-size: 50px;
+}
