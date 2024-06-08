@@ -1,0 +1,9 @@
+.botonFondo {
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: wait;
+    border-radius: 12px;
+}
